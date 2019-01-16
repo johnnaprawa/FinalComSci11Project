@@ -15,33 +15,27 @@ def home():
     form5 = BForm()
     form6 = E1Form()
     if form1.validate_on_submit():
-        sound_file='static\\'+'flyin_high1.wav'
-        return render_template('index.html', form1=form1, form2=form2, form3=form3, form4=form4, form5=form5,
-                               form6=form6, sound_file=sound_file)
+        sound_file= 'static\\' + 'flyin_high.wav'
+        return render_template('index.html', form1=form1, form2=form2, form3=form3, form4=form4, form5=form5, form6=form6, sound_file=sound_file)
 
     if form2.validate_on_submit():
         sound_file = 'static\\' + 'flyin_high.wav'
-        return render_template('index.html', form1=form1, form2=form2, form3=form3, form4=form4, form5=form5,
-                               form6=form6, sound_file=sound_file)
+        return render_template('index.html', form1=form1, form2=form2, form3=form3, form4=form4, form5=form5, form6=form6, sound_file=sound_file)
     if form3.validate_on_submit():
         sound_file = 'static\\' + 'flyin_high.wav'
-        return render_template('index.html', form1=form1, form2=form2, form3=form3, form4=form4, form5=form5,
-                               form6=form6, sound_file=sound_file)
+        return render_template('index.html', form1=form1, form2=form2, form3=form3, form4=form4, form5=form5, form6=form6, sound_file=sound_file)
 
     if form4.validate_on_submit():
         sound_file = 'static\\' + 'flyin_high.wav'
-        return render_template('index.html', form1=form1, form2=form2, form3=form3, form4=form4, form5=form5,
-                               form6=form6, sound_file=sound_file)
+        return render_template('index.html', form1=form1, form2=form2, form3=form3, form4=form4, form5=form5, form6=form6, sound_file=sound_file)
 
     if form5.validate_on_submit():
         sound_file = 'static\\' + 'flyin_high.wav'
-        return render_template('index.html', form1=form1, form2=form2, form3=form3, form4=form4, form5=form5,
-                               form6=form6, sound_file=sound_file)
+        return render_template('index.html', form1=form1, form2=form2, form3=form3, form4=form4, form5=form5, form6=form6, sound_file=sound_file)
 
     if form6.validate_on_submit():
         sound_file = 'static\\' + 'flyin_high.wav'
-        return render_template('index.html', form1=form1, form2=form2, form3=form3, form4=form4, form5=form5,
-                               form6=form6, sound_file=sound_file)
+        return render_template('index.html', form1=form1, form2=form2, form3=form3, form4=form4, form5=form5, form6=form6, sound_file=sound_file)
 
     sound_file="static/flyin_high.wav"
 
