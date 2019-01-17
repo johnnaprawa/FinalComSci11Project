@@ -10,11 +10,17 @@
 
 <form action="" method="post">
     <p>{{ form1.submit() }}</p>
-    <p>{{ form2.submit() }}</p>
-    <p>{{ form3.submit() }}</p>
-    <p>{{ form4.submit() }}</p>
-    <p>{{ form5.submit() }}</p>
-    <p>{{ form6.submit() }}</p>
+    <p>{{ form2.submit2() }}</p>
+    <p>{{ form3.submit3() }}</p>
+    <p>{{ form4.submit4() }}</p>
+    <p>{{ form5.submit5() }}</p>
+    <p>{{ form6.submit6() }}</p>
+    {{ form1.csrf_token }}
+    {{ form2.csrf_token }}
+    {{ form3.csrf_token }}
+    {{ form4.csrf_token }}
+    {{ form5.csrf_token }}
+    {{ form6.csrf_token }}
 
 </form>
 <p>{{ sound_file }}</p>
